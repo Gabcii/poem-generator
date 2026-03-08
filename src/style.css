@@ -37,7 +37,7 @@ form {
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: beige;
+  color: rgb(206, 18, 18);
 }
 .button {
   margin-left: 10px;
@@ -61,4 +61,5 @@ form {
 }
 footer {
   text-align: center;
+  padding: 30px;
 }
