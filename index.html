@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
     <link rel="stylesheet" href="src/style.css" />
     <title>Poem generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to my poem generator!</h1>
+        <h1>Poem generator :)</h1>
       </header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            id="user-instructions"
-            class="instructions"
-            autofocus
-            required
-            autocomplete="off"
-            placeholder="Enter the topic for poem"
-          />
-          <input type="submit" class="button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              id="user-instructions"
+              class="instructions"
+              autofocus
+              required
+              autocomplete="off"
+              placeholder="Enter the topic for poem"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e: love, birds, sunset</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
