@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to my poem generator!</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          name=""
-          id=""
-          autofocus
-          required
-          autocomplete="off"
-          placeholder="Enter the topic for poem"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here..
-        <br />
-        The poem will continue here..
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to my poem generator!</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            id=""
+            class="instructions"
+            autofocus
+            required
+            autocomplete="off"
+            placeholder="Enter the topic for poem"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="poem">
+          The poem will go here..
+          <br />
+          The poem will continue here..
+        </div>
+      </main>
+    </div>
   </body>
   <footer>
     <script src="src/index.js"></script>
